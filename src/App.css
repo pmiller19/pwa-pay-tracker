@@ -26,6 +26,9 @@ html, body, #root {
     border-radius: 20px;
     border: none;
     margin-bottom: 5%;
+    display: block;
+    width: 85%;
+    text-align: center;
     background: rgba(250, 250, 250, 0.85);
 }
 
@@ -35,8 +38,10 @@ html, body, #root {
     border-radius: 20px;
     border: none;
     margin-bottom: 5%;
-    background: rgba(17, 219, 186, 0.616);
-    size: auto;
+    display: block;
+    width: 85%;
+    text-align: center;
+    background: rgba(247, 195, 164, 0.85);
 }
 
 .city {

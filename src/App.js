@@ -48,7 +48,7 @@ const App = () => {
             </div> */}
 
             <div className="choose_organization">
-                <h1>Which Organization Are You In?</h1>
+                <h1>Pick Your Frat</h1>
             </div>
             <div className="frat-button">
                 <h2>Beta Theta Pi</h2>
