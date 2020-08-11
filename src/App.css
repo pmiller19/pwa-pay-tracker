@@ -20,30 +20,6 @@ html, body, #root {
     flex-direction: column;
 }
 
-.choose_organization {
-    outline: none;
-    padding: 20px 7%;
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 5%;
-    display: block;
-    width: 85%;
-    text-align: center;
-    background: rgba(250, 250, 250, 0.85);
-}
-
-.frat-button {
-    outline: none;
-    padding: 20px 7%;
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 5%;
-    display: block;
-    width: 85%;
-    text-align: center;
-    background: rgba(247, 195, 164, 0.85);
-}
-
 .city {
     display: flex;
     align-items: center;

@@ -1,0 +1,27 @@
+.home-button {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 12px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #DDDDDD;
+
+    padding: 40px 7%;
+    border-radius: 20px;
+    
+    text-align: center;
+    /* background: rgba(247, 195, 164, 0.85); */
+}
+
+.choose-organization {
+    outline: none;
+    padding: 20px 7%;
+    border: none;
+    margin-bottom: 5%;
+    display: block;
+    width: 90%;
+    text-align: center;
+    background: rgba(177, 177, 177, 0.85);
+}

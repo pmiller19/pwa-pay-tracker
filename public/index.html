@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Modern PWA Payment Tracker React Application" />
     <link rel="apple-touch-icon" href="./images/logo.png" />
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <title>Pay Tracker App</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./serviceworker.js')
+            navigator.serviceWorker.register('/serviceworker.js')
               .then((reg) => console.log('Success: ', reg.scope))
               .catch((err) => console.log('Failure: ', err));
           })
