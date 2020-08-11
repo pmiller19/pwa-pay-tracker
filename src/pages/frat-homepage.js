@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './frat-homepage.css'
 
-class HomePage extends Component {
+class FratHomePage extends Component {
     render() {
         return (
             <div>
@@ -15,4 +15,4 @@ class HomePage extends Component {
     }
 }
 
-export default HomePage;
+export default FratHomePage;
