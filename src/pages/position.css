@@ -1,0 +1,12 @@
+.choose-position {
+    outline: none;
+    padding: 40px 7%;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 5%;
+    display: block;
+    width: stretch;
+    text-align: center;
+    background: rgba(177, 177, 177, 0.85);
+    border-radius: 20px;
+}

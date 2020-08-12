@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 import './home.css';
 
@@ -11,8 +12,10 @@ class Homepage extends Component{
                     <h1>Pick Your Frat</h1>
                 </div>
                 
-                <Link to="/pages/frat-homepage"><button className="home-button">Beta Theta Pi</button></Link>
-                <Link to="/pages/frat-homepage"><button className="home-button">Pi Kappa Alpha</button></Link>
+                <Link to="/login"><button className="home-button">Beta Theta Pi</button></Link>
+                <Link to="/login"><button className="home-button">Pi Kappa Alpha</button></Link>
+
+                
                 
                 
             </div>
@@ -20,4 +23,5 @@ class Homepage extends Component{
     }
 }
 
-export default Homepage;
+// maybe don't need the 'withRouter'
+export default withRouter(Homepage);

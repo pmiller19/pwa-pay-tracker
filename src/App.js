@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import HomePage from "./pages/home";
-import FratHomePage from "./pages/frat-homepage";
+import HomePage from './pages/home';
+import LoginPage from './pages/login';
+import PositionPage from './pages/position';
 
 // import { fetchWeather } from './api/fetchWeather';
 import './App.css';
 
-const App = () => {
+function App() {
     // const [query, setQuery] = useState('');
     // const [weather, setWeather] = useState({});
 
@@ -42,22 +43,12 @@ const App = () => {
 
         // </div>
 
-        // <div className="App">
-        //     <Router>
-        //         <Switch>
-        //             <Route exact path="/" render={props => <HomePage {...props} />} />
-        //             {/* <Route path="/record" render={props => <RecordPage {...props} />} />
-        //             <Route path="/view" render={props => <ViewPage {...props} />} />
-        //             <Route path="/manage" render={props => <ManagePage {...props} />} /> */}
-        //         </Switch>
-        //     </Router>
-        // </div>
-
         <div className="App">
             <Router>
                 <Switch>
-                    <Route path="/" exact component={HomePage} />
-                    <Route path="/frat-homepage" component={FratHomePage} />
+                    <Route exact path="/" component={HomePage} />
+                    <Route path="/login" component={LoginPage} />
+                    <Route path="/position" component={PositionPage} />
                 </Switch>
             </Router>
         </div>
