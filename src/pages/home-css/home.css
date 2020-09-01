@@ -1,0 +1,29 @@
+.home-button {
+  border: none;
+  outline: none;
+  margin-top: 5%;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #dddddd;
+  padding: 2vh 3vh;
+  margin: 1vh;
+  border-radius: 8px;
+  text-align: center;
+  /* background: rgba(247, 195, 164, 0.85); */
+}
+
+.frat-buttons {
+  text-align: center;
+}
+
+.choose-organization {
+  outline: none;
+  padding: 40px 7%;
+  border: none;
+  margin-bottom: 5%;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=home.css.map */

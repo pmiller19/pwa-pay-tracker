@@ -1,30 +1,27 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './login.css';
+import './main-css/main.css'
 
 class LoginPage extends Component {
-    constructor() {
-        super();
+  constructor () {
+    super()
 
-        this.state = {
-            history: {},
-        }
+    this.state = {
+      history: {}
     }
-    
-    render() {
-        return (
-            <div className="main-container">
-                <div className="title">
-                    <h1>Please Enter Your Frat's Code</h1>
-                </div>
-                
-                <input type="text" className="search" placeHolder="Search..."  />
+  }
 
-
-                
-            </div>
-        );
-    }
+  render () {
+    return (
+      <div className='body'>
+        <div className='main-section'>
+          <h1>Please Enter Your Frat's Code</h1>
+          <input type='number' className='search' placeHolder='Search...' />
+        </div>
+        <button className='primary-button'>Next</button>
+      </div>
+    )
+  }
 }
 
-export default LoginPage;
+export default LoginPage
