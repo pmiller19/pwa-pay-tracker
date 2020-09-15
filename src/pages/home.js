@@ -19,12 +19,12 @@ class Homepage extends Component {
             <Link to='/login'>
               <button className='primary-button'>Pi Kappa Alpha</button>
             </Link>
-            <Link to='/login'>
+            {/* <Link to='/login'>
               <button className='primary-button'>Beta Theta Pi</button>
             </Link>
             <Link to='/login'>
               <button className='primary-button'>Pi Kappa Alpha</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
