@@ -1,0 +1,15 @@
+.add-button {
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #dddddd;
+    padding: 2vh 3vh;
+    margin: 1vh;
+    border-radius: 8px;
+    text-align: right;
+    float: right;
+    /* background: rgba(247, 195, 164, 0.85); */
+  }
