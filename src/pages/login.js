@@ -1,7 +1,8 @@
 import React, { useState }  from 'react'
 import './main-css/main.css'
 import { Link } from 'react-router-dom';
-import Header from '../pages/header'
+import Header from '../components/header';
+import Body from '../components/body';
 
 function LoginPage() {
     const [password, setPassword] = useState('');
@@ -10,8 +11,15 @@ function LoginPage() {
     if (password === '6969' && click === true) {
         return (
             <div className="mt-4 px-4">
-              <Header />
-                
+             
+                <Header />
+              
+              <p>Event Planning</p>
+              
+                <Body />
+                <Body />
+                <Body />
+              
             </div>
         );
     } else if (password !== '6969' && click === true) {
