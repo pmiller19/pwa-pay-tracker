@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './header-css/header.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // how to add image if we want that
 // import logo from '../assets/unl-logo.png';
 

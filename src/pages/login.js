@@ -1,6 +1,6 @@
 import React, { useState }  from 'react'
 import './main-css/main.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Header from '../components/header';
 import Body from '../components/body';
 

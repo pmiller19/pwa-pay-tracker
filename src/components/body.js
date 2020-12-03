@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './body-css/body.css'
 // how to add image if we want that
 // import logo from '../assets/unl-logo.png';
